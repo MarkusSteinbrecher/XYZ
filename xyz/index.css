@@ -3,7 +3,7 @@
 div.input {
   list-style-type: none;
   padding: 0;
-  height: 500px;
+  height: 20%;
 }
 
 div.view {
@@ -11,6 +11,6 @@ div.view {
   top: 80px;
   right: 0;
   width: 800px;
-  height: 800px;
+  height: 400px;
   border: 3px solid #73AD21;
 }
