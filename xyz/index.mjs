@@ -69,7 +69,7 @@ function init() {
   }
 
   const loader = new XYZLoader();
-  loader.load('sample.xyz', geometry => {
+  loader.load('xyz.xyz', geometry => {
       geometry.center();
       const opts = {color: 'green', side: THREE.DoubleSide};
       const material = new THREE.MeshPhongMaterial(opts);
