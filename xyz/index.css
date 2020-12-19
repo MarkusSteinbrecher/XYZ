@@ -2,3 +2,24 @@ body {
   margin: 0;
   padding: 0;
 }
+
+input {
+  list-style-type: none;
+  padding: 0;
+}
+
+3dview {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
